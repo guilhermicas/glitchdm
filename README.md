@@ -34,3 +34,5 @@ greeter-session=lightdm-webkit2-greeter
 - Alt + S or Alt + C: Cycle through the session options
 - Tab: Move focus between username and password fields
 - Enter: Log In
+
+*gif images are under [Creative Commons License](https://gitlab.com/mixedCase/sddm-lain-wired-theme/raw/master/LICENSE) and are sourced from [Andrés Rodríguez's repository](https://gitlab.com/mixedCase/sddm-lain-wired-theme/tree/master)*
