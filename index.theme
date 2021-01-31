@@ -1,0 +1,6 @@
+[theme]
+name=GlitchDM
+description=A webkit 2 greeter with unknown purpose.  Extremely Rare
+engine=lightdm-webkit-greeter
+url=index.html
+session=bspwm
