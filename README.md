@@ -3,37 +3,29 @@
 
 # GlitchDM
 
-##### A LightDM Webkit Greeter Theme with unknown purpose.  Extremely rare.
+##### Um greeter costumizado ao meu gosto
 
-![Demo](img/glitch-demo.gif?raw=true)
+## Instalação
 
-This greeter theme was built based on the [Antergos Greeter Theme](https://github.com/Antergos/lightdm-webkit-theme-antergos)
-
-
-## Installation
-
-1. Install [lightdm-webkit2-greeter](https://github.com/Antergos/lightdm-webkit2-greeter) using the package provided in their repo
-2. Set lightdm-webkit2-greeter to be the default greeter.  The preferred way is to create a file inside `/etc/lightdm/lightdm.conf.d`.  This file can have any name you want, but something like `50-lightdm-webkit2-greeter.conf` is not a bad choice.  The contents of the file should be:
+1. Instalar [lightdm-webkit2-greeter](https://github.com/Antergos/lightdm-webkit2-greeter)
+2. Definir lightdm-webkit2-greeter para ser o greeter definido por defeito. A forma recomendada é pela criação de um ficheiro dentro de `/etc/lightdm/lightdm.conf.d`. Este ficheiro pode ter qualquer nome que se quiser, mas algo como `50-lightdm-webkit2-greeter.conf` não é uma má escolha. Os conteúdos do ficheiro devem ser:
   ```
   [Seat:*]
   greeter-session=lightdm-webkit2-greeter
   ```
 
-3. Clone this theme
-4. Copy the contents of this theme into `/usr/share/lightdm-webkit/themes`
-5. Edit the file `/etc/lightdm/lightdm-webkit2-greeter.conf` and set the
-"webkit-theme" property to "glitchdm".
-6. Restart!
+3. Clone este tema
+4. Copie os conteúdos deste tema para o diretório `/usr/share/lightdm-webkit/themes`
+5. Edite o ficheiro `/etc/lightdm/lightdm-webkit2-greeter.conf` e defina a chave "webkit-theme" para a propriedade "glitchdm"
+6. Reinicie!
 
 
-## Keyboard Shortcuts
+## Atalhos do teclado
 
-- Alt + R: Restart
-- Alt + D: Shutdown
-- Alt + H: Hibernate
-- Alt + P: Suspend
-- Alt + S or Alt + C: Cycle through the session options
-- Tab: Move focus between username and password fields
+- Alt + R: Reiniciar
+- Alt + D: Desligar
+- Alt + H: Hibernar
+- Alt + P: Suspender
+- Alt + S or Alt + C: Percorrer as opções de sessão
+- Tab: Alterar o foco entre a caixa de texto do username e da palavra-passe
 - Enter: Log In
-
-*gif images are under [Creative Commons License](https://gitlab.com/mixedCase/sddm-lain-wired-theme/raw/master/LICENSE) and are sourced from [Andrés Rodríguez's repository](https://gitlab.com/mixedCase/sddm-lain-wired-theme/tree/master)*
